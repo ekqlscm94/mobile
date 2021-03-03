@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>미디어쿼리를 이용한 맞춤형 스타일</title>
+        <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:799px)">
+        <link href="pc.css" rel="stylesheet" type="text/css" media="screen and (min-width:800px)"> 
+        <style>
+            @font-face {
+                font-family: CookieRun;
+                src: url("CookieRun bold.ttf");}
+            p{font-family: CookieRun;}
+            h1{font-family: CookieRun;}    
+        </style>
+    </head>
+    <body>
+        <div id="pc_view">
+            <h1>데스크탑 pc화면</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit sunt beatae doloremque quae consequatur debitis iure laudantium ullam nobis reiciendis natus eum ut itaque est ducimus, accusamus id ipsam.</p>
+        </div>
+
+        <div id="mobile_view">
+            <h1>핸드폰 모바일 화면</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa autem quod, illo nesciunt deserunt voluptatem dolorum consectetur corrupti rem corporis suscipit earum ad doloremque veritatis placeat error odit tempore cupiditate iure. Earum beatae ex at laudantium deserunt minus suscipit culpa animi, optio, saepe consectetur necessitatibus ipsa quos nulla repellendus qui.</p>
+        </div>
+    </body>
+</html>
